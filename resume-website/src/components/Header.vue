@@ -3,30 +3,35 @@
 </script>
 
 <template>
-  <div class="child">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125"/>
-    <h1>Header</h1>
+  <div class="header">
+    <div class="innerDiv">
+      <img class="profilePicture" alt="profile-picture" src="@/assets/placeholder.png" width="125" height="125"/>
+      <h1>Jan Brebeck</h1>
+    </div>
   </div>
 </template>
 
 <style scoped>
-.header {
-  color: yellow;
-  outline-style: solid;
-  outline-color: yellow;
+.profilePicture {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-right: 10%;
 }
 
-.child {
+.header {
+  border-radius: 16px;
+}
+
+.innerDiv {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1%;
-  padding: 20px;
-  font-size: 20px;
-  line-height: 20px;
   color: #ffe8c3;
-  background-color: #eab768;
-  border-radius: 10px;
-  border: 10px solid #f5cc8b;
+  background-color: lightblue;
+  border-radius: 24px;
+  padding: 8px;
+  border: 10px solid #9c9c9c;
 }
 </style>
