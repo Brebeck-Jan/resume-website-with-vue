@@ -4,10 +4,8 @@
 
 <template>
   <div>
-    <h1>Impressum: </h1>
-    <p>- Point 1</p>
-    <p>- Point 2</p>
-    <p>- Point 3</p>
+    <img src="../assets/j.png" style="width: 100%"/>
+<!--    <img src="../assets/profile_pic_2.jpg" style="width: 100%"/>-->
   </div>
 </template>
 
