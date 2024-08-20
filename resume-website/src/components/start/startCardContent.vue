@@ -8,16 +8,24 @@ const props = defineProps(['item', 'index'])
 </script>
 
 <template>
-  <div v-if="index % 2 == 0 " style="display: flex; text-align: center;">
+  <div class="card" v-if="index % 2 == 0 " >
     <starting-text style="" :text="item.text"/>
-    <starting-image style="margin-left: auto" :pic="item.pic"/>
+    <starting-image class="right" :pic="item.pic"/>
   </div>
-  <div v-if="index % 2 != 0 " style="display: flex">
-    <starting-image style="" :pic="item.pic"/>
-    <starting-text style="margin-left: auto" :text="item.text"/>
+  <div class="card" v-if="index % 2 != 0">
+    <starting-image :pic="item.pic"/>
+    <starting-text class="right" :text="item.text"/>
   </div>
 
 </template>
 
 <style scoped>
+.card{
+  height: 300px;
+  display: flex
+}
+
+.right {
+  margin-left: auto
+}
 </style>

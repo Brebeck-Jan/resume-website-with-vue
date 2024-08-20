@@ -16,6 +16,7 @@ import {RouterLink} from "vue-router";
     <div class="navigationItems">
       <RouterLink class="link" to="/">Startseite</RouterLink>
       <RouterLink class="link" to="/cv">Lebenslauf</RouterLink>
+      <RouterLink class="link" to="/projects">Projekte</RouterLink>
       <RouterLink class="link" to="/contact">Kontakt</RouterLink>
     </div>
   </div>
