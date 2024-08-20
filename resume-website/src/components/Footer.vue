@@ -6,7 +6,7 @@
   <div class="footer">
     <div
         style="align-content: center; align-items: center; height: 100%; margin-top:auto; vertical-align: center;">
-      <div style="float: right; width: 10%; margin-right: 5%; align-content: center; align-items: center; padding-top: 1%">
+      <div style="float: right; width: 10%; margin-right: 5%; align-content: center; align-items: center; padding-top: 7px">
         <a href="https://www.linkedin.com/in/jan-brebeck-596440176/" target="_blank">
           <img alt="profile-picture" src="../assets/linkedin.png"/>
         </a>
@@ -23,8 +23,8 @@
 
 <style scoped>
 img {
-  width: 25%;
-  height: 25%;
+  width: 35px;
+  height: 35px;
 }
 
 a {
@@ -34,6 +34,6 @@ a {
 
 .footer {
   background-color: #666666;
-  height: 10%;
+  height: 56px;
 }
 </style>

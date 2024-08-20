@@ -1,6 +1,8 @@
 <script setup lang="ts">
-import CvCard from "@/components/cv/CvCard.vue";
+import Card from "@/components/Card.vue";
 import cvItems from "../assets/cvItems.json"
+import CvCardContent from "@/components/cv/cvCardContent.vue";
+
 </script>
 
 <template>
@@ -8,9 +10,10 @@ import cvItems from "../assets/cvItems.json"
 
   </div>
   <div style="height:100%">
-    <CvCard
+    <Card
         v-for="(cvItem, index) in cvItems"
-        :cvItem="cvItem"
+        :item="cvItem"
+        :component="CvCardContent"
         :index="index"
         :key="index"
     />

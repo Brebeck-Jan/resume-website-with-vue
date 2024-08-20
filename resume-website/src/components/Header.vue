@@ -5,8 +5,8 @@ import {RouterLink} from "vue-router";
 
 <template>
   <div class="header">
-    <RouterLink class="test" to="/">
-          <img class="profilePicture" alt="profile-picture" style="width: 50%; height:45%" src="../assets/profile_pic.jpg"/>
+    <RouterLink class="toHome" to="/">
+          <img class="profilePicture" alt="profile-picture" src="../assets/profile_pic.jpg"/>
     </RouterLink>
     <div>
       <h1 style="align-items: center; align-content:center; text-align: center; line-height: normal">Jan
@@ -42,9 +42,9 @@ import {RouterLink} from "vue-router";
 }
 
 .profilePicture {
-  width: 125px;
-  height: 125px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
   margin: 5%
 }
 
@@ -52,14 +52,14 @@ import {RouterLink} from "vue-router";
   background-color: #666666;
   border-bottom-color: black;
   border-bottom-style: solid;
-  height: 20%;
+  height: 115px;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
 }
 
-.test {
+.toHome {
   justify-content: center ;
   display: flex;
   width: 15%

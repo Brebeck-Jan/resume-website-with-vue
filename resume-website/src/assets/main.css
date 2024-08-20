@@ -4,14 +4,14 @@
     margin: 0 auto;
     font-weight: normal;
     background-color: lightcyan;
-    color: black;
+    color: white;
     /* color: #666666; */
 }
 
 a,
 .black {
     /* color: #666666; */
-    color: black;
+    color: white;
     transition: 0.4s;
     padding: 3px;
     border-radius: 5px;
