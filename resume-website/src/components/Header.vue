@@ -17,6 +17,7 @@ import {RouterLink} from "vue-router";
       <RouterLink class="link" to="/">Startseite</RouterLink>
       <RouterLink class="link" to="/cv">Lebenslauf</RouterLink>
       <RouterLink class="link" to="/projects">Projekte</RouterLink>
+      <RouterLink class="link" to="/certificates">Zertifikate</RouterLink>
       <RouterLink class="link" to="/contact">Kontakt</RouterLink>
     </div>
   </div>
