@@ -11,7 +11,7 @@ import Sidebar from "@/components/Sidebar.vue";
     <div class="main" style="background-color: lightcyan">
       <RouterView class="mainContent content"/>
     </div>
-    <Footer></Footer>
+    <Footer> </Footer>
   </div>
 </template>
 
