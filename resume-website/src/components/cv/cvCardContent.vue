@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import {defineProps, ref} from "vue";
+import cofinpro from "../../assets/cofinpro.jpg"
+import dtd from "../../assets/dtd.jpg"
+import dto from "../../assets/dto.jpg"
 
 const props = defineProps(['item', 'index'])
 
+const images = [cofinpro, dto, dtd]
 const getTeaserText = () => {
   if (props.item && props.item.description) {
     if (props.item.description.length > 60) {
@@ -26,14 +30,11 @@ const handleShowInput = () => {
   console.log(showMore.value)
 }
 
-console.log("In Card Component")
-console.log(props.item)
-
 </script>
 
 <template>
   <div style="width: 20%;">
-    <img alt="company-picture" :src="props.item.pic" style="width: 100%; border-radius: 50%;">
+    <img alt="company-picture" :src="images[props.item.pic]" style="width: 100%; border-radius: 50%;">
   </div>
   <div style="width: 530px; padding-left: 5%; color: black; height: fit-content">
     <ul>

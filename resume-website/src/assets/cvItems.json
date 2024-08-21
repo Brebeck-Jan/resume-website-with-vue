@@ -1,12 +1,12 @@
 [
   {
-    "pic": "/src/assets/cofinpro.jpg",
+    "pic": 0,
     "company": "Cofinpro AG",
     "from": "01.08.2024",
     "role": "Expert Consultant"
   },
   {
-    "pic": "/src/assets/dto.jpg",
+    "pic": 1,
     "company": "DER Touristik Online GmbH",
     "from": "01.10.2021",
     "to": "30.06.2024",
@@ -14,7 +14,7 @@
     "description": "Schwerpunkt auf Backendentwicklung mit Kotlin in Kubernetesumgebung.\nGelegentliche Arbeiten im Frontend mit Javascript und React."
   },
   {
-    "pic": "/src/assets/dtd.jpg",
+    "pic": 2,
     "company": "DER Touristik Deutschland GmbH",
     "from": "01.10.2018",
     "to": "30.09.2021",
