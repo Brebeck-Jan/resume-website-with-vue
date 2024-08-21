@@ -4,21 +4,16 @@
     margin: 0 auto;
     font-weight: normal;
     background-color: lightcyan;
-    color: #666666;
+    color: white;
+    /* color: #666666; */
 }
 
 a,
 .black {
-    color: #666666;
+    /* color: #666666; */
+    color: white;
     transition: 0.4s;
     padding: 3px;
     border-radius: 5px;
     text-decoration: none;
-}
-
-@media (hover: hover) {
-    a:hover {
-        background-color: hsla(0, 0%, 22%, 0.2);
-
-    }
 }

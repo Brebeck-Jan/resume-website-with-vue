@@ -12,12 +12,22 @@ const router = createRouter({
         {
             path: '/cv',
             name: 'cv',
-            component: () => import('../views/CV.vue')
+            component: () => import('../views/Cv.vue')
         },
         {
-            path: '/legal',
-            name: 'legal',
-            component: () => import('../views/Legal.vue')
+            path: '/projects',
+            name: 'projects',
+            component: () => import('../views/Projects.vue')
+        },
+        // {
+        //     path: '/certificates',
+        //     name: 'certificates',
+        //     component: () => import('../views/Certificates.vue')
+        // },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: () => import('../views/Contact.vue')
         }
     ]
 })

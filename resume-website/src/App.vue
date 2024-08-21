@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import {RouterView} from 'vue-router'
-import Sidebar from "@/components/Sidebar.vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Sidebar from "@/components/Sidebar.vue";
 </script>
 
 <template>
   <div class="parent">
     <Header></Header>
-    <div class="main">
+    <div class="main" style="background-color: lightcyan">
       <RouterView class="mainContent content"/>
     </div>
     <Footer></Footer>
