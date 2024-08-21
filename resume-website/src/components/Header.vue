@@ -51,7 +51,7 @@ import {RouterLink} from "vue-router";
 }
 
 .header {
-  background-color: #666666;
+  background-color: #020202;
   border-bottom-color: black;
   border-bottom-style: solid;
   height: 115px;

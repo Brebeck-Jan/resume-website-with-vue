@@ -33,28 +33,32 @@ const handleShowInput = () => {
 </script>
 
 <template>
-  <div style="width: 20%;">
-    <img alt="company-picture" :src="images[props.item.pic]" style="width: 100%; border-radius: 50%;">
+  <div style="width: 20%; height: 150px">
+    <img alt="company-picture" :src="images[props.item.pic]" style="width: 100%; border-radius: 15px;">
   </div>
-  <div style="width: 530px; padding-left: 5%; color: black; height: fit-content">
-    <ul>
-      <li class="item">{{ props.item.company }}</li>
-      <li class="item">{{ props.item.from }} - {{ props.item.to ? props.item.to : "heute" }}</li>
-      <li class="item">{{ props.item.role }}</li>
-      <Transition :name="showMore.toString()">
-        <li v-show="props.item.description" class="item" :key="showValue.toString()">{{ descriptionText }}</li>
-      </Transition>
-    </ul>
-    <div style="display: flex; justify-content: center; margin: 1%">
-      <button style="" @click="handleShowInput" v-if="props.item.description">{{ showValue }}</button>
+  <div style="width: 530px; height: 150px; padding-left: 5%;">
+    <div style="height: 122.5px">
+      <ol style="list-style-type: none; padding-left: 0">
+        <li class="item">{{ props.item.company }}</li>
+        <li class="item">{{ props.item.from }} - {{ props.item.to ? props.item.to : "heute" }}</li>
+        <li class="item">{{ props.item.role }}</li>
+        <Transition :name="showMore.toString()">
+          <li v-show="props.item.description" class="item" :key="showValue.toString()">{{ descriptionText }}</li>
+        </Transition>
+      </ol>
+    </div>
+    <div style="margin-top: auto; margin-bottom: 0; display: flex; height: 27.5px">
+      <button class="showMoreButton" @click="handleShowInput" v-if="props.item.description">{{ showValue }}</button>
     </div>
   </div>
 </template>
 
 <style scoped>
-button {
-  background-color: lightcyan;
+.showMoreButton {
+  background-color: #ea7609;
   border-radius: 15px;
+  border-style: none;
+  padding: 6px;
 }
 
 .true-enter-active {

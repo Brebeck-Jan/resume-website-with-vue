@@ -2,15 +2,13 @@
 
 #app {
     margin: 0 auto;
-    font-weight: normal;
-    background-color: lightcyan;
+    font-weight: 16;
+    background-color: #131516;
     color: white;
-    /* color: #666666; */
 }
 
 a,
 .black {
-    /* color: #666666; */
     color: white;
     transition: 0.4s;
     padding: 3px;

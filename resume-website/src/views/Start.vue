@@ -4,7 +4,7 @@ import StartCardContent from "@/components/start/startCardContent.vue";
 </script>
 
 <template>
-  <div style="color: black">
+  <div>
     <h1 style="padding-bottom: 20px">
       Über mich:
     </h1>

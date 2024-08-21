@@ -8,10 +8,10 @@ import Sidebar from "@/components/Sidebar.vue";
 <template>
   <div class="parent">
     <Header></Header>
-    <div class="main" style="background-color: lightcyan">
+    <div class="main" style="background-color: #161315">
       <RouterView class="mainContent content"/>
     </div>
-    <Footer> </Footer>
+    <Footer></Footer>
   </div>
 </template>
 
