@@ -37,14 +37,13 @@ const handleShowInput = () => {
 <style scoped>
 #card {
   border-radius: 15px;
-  border-style: solid;
-  border-color: black;
-  width: fit-content;
+  width: 66%;
   height: fit-content;
   min-height: 216px;
   padding: 2%;
   margin: 2%;
   display: flex;
+  background-color: #2b2d2e;
 }
 
 #card.odd {
