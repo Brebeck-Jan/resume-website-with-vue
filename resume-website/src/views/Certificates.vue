@@ -1,16 +1,15 @@
 <script setup lang="ts">
-
+// import {usePDF, VuePDF} from "VuePDF";
+import PDF from "pdf-vue3";
+import pdf from "../assets/HyperskillCertificateJavaIntro.pdf"
 </script>
 
 <template>
-  <div
-      style="justify-content: center; display: flex; vertical-align: center; padding-top: 20%; padding-bottom: 20%">
-    <h1>Hier entsteht eine Liste bisherigen Zertifikate</h1>
-    <ul>
-      <li>Zertifikat 1</li>
-      <li>Zertifikat 2</li>
-      <li>Zertifikat 3</li>
-    </ul>
+  <div>
+    <h1>Hier entsteht eine Liste bisheriger Zertifikate</h1>
+    <div style="margin-top: 67px">
+      <PDF style="width:50%; " :src="pdf"/>
+    </div>
   </div>
 </template>
 
