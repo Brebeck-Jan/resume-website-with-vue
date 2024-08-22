@@ -30,7 +30,7 @@ const handleShowInput = () => {
 </script>
 
 <template>
-  <div style="width: 20%; height: 150px">
+  <div style="width: 150px; height: 150px">
     <img alt="company-picture" :src="images[props.item.pic]" style="width: 100%; border-radius: 15px;">
   </div>
   <div style="width: 530px; height: 150px; padding-left: 5%;">
