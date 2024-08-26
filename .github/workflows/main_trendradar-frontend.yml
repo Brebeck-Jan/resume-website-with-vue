@@ -23,7 +23,6 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          cd resume-website
           npm install
           npm run build --if-present
           npm run test --if-present
@@ -60,4 +59,4 @@ jobs:
           app-name: 'trendradar-frontend'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D4CB0D2DA1CD4549BE01F01DDC332FD7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ED28E24088714FCB9E7103E3ADDAFC2E }}
