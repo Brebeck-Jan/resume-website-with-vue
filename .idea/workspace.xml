@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151a4019-00ba-4cab-b9ba-4f94cd9330dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resume-website/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/assets/startItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/assets/startItems.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startCardContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startCardContent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startingImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startingImage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startingText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startingText.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Certificates.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Certificates.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Contact.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Start.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +21,7 @@
 }</component>
   <component name="ProjectId" id="2kgeqQH0RYSHp6x1GkHlXbUDTri" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -71,7 +56,7 @@
       <workItem from="1723709837713" duration="58000" />
       <workItem from="1723797636572" duration="141000" />
       <workItem from="1725358398253" duration="3166000" />
-      <workItem from="1725426961833" duration="10958000" />
+      <workItem from="1725426961833" duration="12979000" />
     </task>
     <servers />
   </component>

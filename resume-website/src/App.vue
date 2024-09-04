@@ -5,12 +5,11 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <template>
-  <div class="flex h-full flex-col font-stylish text-white" style="  display: flex;
-  flex-direction: column;
-  height: 100vh;">
+  <div class="flex flex-col font-stylish text-white">
     <Header/>
-    <div class="flex-grow p-5 bg-neutral-900">
-      <RouterView class="mainContent content"/>
+<!--    <div class="flex-grow p-5 bg-neutral-900">-->
+    <div class="p-5 bg-neutral-900">
+      <RouterView class=""/>
     </div>
     <Footer></Footer>
   </div>

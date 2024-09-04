@@ -8,24 +8,13 @@ const props = defineProps(['item', 'index'])
 </script>
 
 <template>
-  <div class="card" v-if="index % 2 == 0 " >
+  <div class="flex h-fit" v-if="index % 2 == 0 " >
     <starting-text :text="item.text"/>
-    <starting-image class="right" :pic="item.pic"/>
+    <starting-image class="" :pic="item.pic"/>
   </div>
-  <div class="card" v-if="index % 2 != 0">
+  <div class="flex h-fit" v-if="index % 2 != 0">
     <starting-image :pic="item.pic"/>
-    <starting-text class="right" :text="item.text"/>
+    <starting-text class="ml-auto" :text="item.text"/>
   </div>
 
 </template>
-
-<style scoped>
-.card{
-  height: 300px;
-  display: flex
-}
-
-.right {
-  margin-left: auto
-}
-</style>

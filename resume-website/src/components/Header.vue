@@ -1,6 +1,11 @@
 <script setup lang="ts">
 
 import {RouterLink} from "vue-router";
+import { useWindowSize } from '@vueuse/core'
+
+const { width, height } = useWindowSize()
+const isBigScreen = width.value > 700
+
 </script>
 
 <template>
@@ -15,10 +20,10 @@ import {RouterLink} from "vue-router";
     <div class="flex-grow"></div>
     <div class="content-center align-center mr-5">
       <RouterLink class="link" to="/">Startseite</RouterLink>
-      <RouterLink class="link" to="/cv">Lebenslauf</RouterLink>
-      <RouterLink class="link" to="/projects">Projekte</RouterLink>
-      <RouterLink class="link" to="/certificates">Zertifikate</RouterLink>
-      <RouterLink class="link" to="/contact">Kontakt</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" to="/cv">Lebenslauf</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" to="/projects">Projekte</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" to="/certificates">Zertifikate</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" to="/contact">Kontakt</RouterLink>
     </div>
   </div>
 </template>

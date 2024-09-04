@@ -11,7 +11,7 @@ const images = [j, hackathon, rennrad, mtb];
 </script>
 
 <template>
-  <div class="w-1/2 flex align-middle">
+  <div class="h-60 w-1/2 flex">
     <img alt="company-picture" class="m-auto h-5/6 rounded"  :src="images[props.pic]">
   </div>
 </template>
