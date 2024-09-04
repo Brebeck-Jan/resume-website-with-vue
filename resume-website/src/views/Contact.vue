@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div style="justify-content: center; display: flex; vertical-align: center; padding-top: 20%; padding-bottom: 20%">
+  <div  class="h-full" style="justify-content: center; display: flex; vertical-align: center; padding-top: 20%; padding-bottom: 20%">
     <h1 style="margin:auto; vertical-align: center">
       Sie können mich über
       <a class="link"
@@ -22,5 +22,4 @@
   color: blue;
   text-decoration: underline
 }
-
 </style>

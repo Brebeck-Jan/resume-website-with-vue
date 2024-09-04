@@ -7,9 +7,6 @@ import CvCardContent from "@/components/cv/cvCardContent.vue";
 
 <template>
   <div>
-
-  </div>
-  <div style="height:100%">
     <Card
         v-for="(cvItem, index) in cvItems"
         :item="cvItem"
@@ -18,9 +15,4 @@ import CvCardContent from "@/components/cv/cvCardContent.vue";
         :key="index"
     />
   </div>
-
 </template>
-
-<style scoped>
-
-</style>
