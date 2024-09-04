@@ -7,12 +7,8 @@ import pdf from "../assets/HyperskillCertificateJavaIntro.pdf"
 <template>
   <div>
     <h1>Hier entsteht eine Liste bisheriger Zertifikate</h1>
-    <div style="margin-top: 67px">
-      <PDF style="width:50%; " :src="pdf"/>
+    <div>
+      <PDF class="w-1/2" :src="pdf"/>
     </div>
   </div>
 </template>
-
-<style scoped>
-
-</style>

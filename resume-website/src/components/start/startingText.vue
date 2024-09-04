@@ -5,7 +5,9 @@ const props = defineProps(['text'])
 </script>
 
 <template>
-  <p style="width:50%; text-align: left">{{ props.text }}</p>
+  <div class="w-6/12 flex items-center">
+    <p class="text-left">{{ props.text }}</p>
+  </div>
 </template>
 
 <style scoped>

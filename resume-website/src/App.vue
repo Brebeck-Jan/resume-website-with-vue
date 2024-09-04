@@ -2,28 +2,16 @@
 import {RouterView} from 'vue-router'
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Sidebar from "@/components/Sidebar.vue";
 </script>
 
 <template>
-  <div class="parent">
-    <Header></Header>
-    <div class="main" style="background-color: #161315">
+  <div class="flex h-full flex-col font-stylish text-white" style="  display: flex;
+  flex-direction: column;
+  height: 100vh;">
+    <Header/>
+    <div class="flex-grow p-5 bg-neutral-900">
       <RouterView class="mainContent content"/>
     </div>
     <Footer></Footer>
   </div>
 </template>
-
-<style scoped>
-.parent {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.main {
-  flex-grow: 1;
-  padding: 5%;
-}
-</style>

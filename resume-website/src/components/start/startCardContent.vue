@@ -9,7 +9,7 @@ const props = defineProps(['item', 'index'])
 
 <template>
   <div class="card" v-if="index % 2 == 0 " >
-    <starting-text style="" :text="item.text"/>
+    <starting-text :text="item.text"/>
     <starting-image class="right" :pic="item.pic"/>
   </div>
   <div class="card" v-if="index % 2 != 0">

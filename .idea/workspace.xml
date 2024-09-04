@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="151a4019-00ba-4cab-b9ba-4f94cd9330dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-website/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/assets/startItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/assets/startItems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startCardContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startCardContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startingImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startingImage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/start/startingText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/start/startingText.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Certificates.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Certificates.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Start.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feat/setup-basic-structure-with-routing-and-components",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jan.brebeck/Library/CloudStorage/OneDrive-CofinproAG/Dokumente/Repos/private/resume-website-with-vue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/working-on-page-content&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jan.brebeck/Library/CloudStorage/OneDrive-CofinproAG/Dokumente/Repos/private/resume-website-with-vue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jan.brebeck/Library/CloudStorage/OneDrive-CofinproAG/Dokumente/Repos/private/resume-website-with-vue/resume-website/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resume-website/src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +70,8 @@
       <updated>1723709836665</updated>
       <workItem from="1723709837713" duration="58000" />
       <workItem from="1723797636572" duration="141000" />
+      <workItem from="1725358398253" duration="3166000" />
+      <workItem from="1725426961833" duration="10958000" />
     </task>
     <servers />
   </component>
