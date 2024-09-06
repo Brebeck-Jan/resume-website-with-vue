@@ -12,17 +12,6 @@ const getTeaserText = () => {
     }
   }
 }
-
-let showMore = ref(false);
-let showValue = ref("mehr anzeigen")
-let descriptionText = ref(getTeaserText())
-
-const handleShowInput = () => {
-  showMore.value = !showMore.value;
-  showValue.value = showMore.value ? "weniger anzeigen" : "mehr anzeigen";
-  descriptionText.value = showMore.value ? props.item.description : getTeaserText();
-}
-
 </script>
 
 <template>

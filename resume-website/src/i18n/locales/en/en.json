@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "start": "Home",
+    "cv": "CV",
+    "projects": "Projects",
+    "certificates": "Certificates",
+    "contact": "Contact"
+  },
+  "cv": {
+    "expandButton": "show more",
+    "collapseButton": "show less"
+  }
+}

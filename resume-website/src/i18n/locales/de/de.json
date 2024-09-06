@@ -1,0 +1,13 @@
+{
+  "navigation": {
+    "start": "Startseite",
+    "cv": "Lebenslauf",
+    "projects": "Projekte",
+    "certificates": "Zertifikate",
+    "contact": "Kontakt"
+  },
+  "cv": {
+    "expandButton": "mehr anzeigen",
+    "collapseButton": "weniger anzeigen"
+  }
+}

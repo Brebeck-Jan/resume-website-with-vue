@@ -1,0 +1,24 @@
+[
+  {
+    "pic": 0,
+    "company": "Cofinpro AG",
+    "from": "01.08.2024",
+    "role": "Expert Consultant"
+  },
+  {
+    "pic": 1,
+    "company": "DER Touristik Online GmbH",
+    "from": "01.10.2021",
+    "to": "30.06.2024",
+    "role": "Software Engineer",
+    "description": "Schwerpunkt auf Backendentwicklung mit Kotlin in Kubernetesumgebung.<br/>Gelegentliche Arbeiten im Frontend mit Javascript und React."
+  },
+  {
+    "pic": 2,
+    "company": "DER Touristik Deutschland GmbH",
+    "from": "01.10.2018",
+    "to": "30.09.2021",
+    "role": "Dualer Student Wirschaftsinformatik Data Science",
+    "description": "Entwicklung an Backendsystemen;<br/>Datenverarbeitung und -aufbereitung;<br/>Einbindung maschinellen Lernens;<br/><br/>Projektarbeit 1: Testdatenerfassungssystem;<br/>Projektarbeit 2: Hotelbildklassifizierer;<br/>Bachelorarbeit: Geosuche bei Batchimport;<br/><br/>Währenddessen gearbeitet im Functional Testing und der DER Touristik Online GmbH."
+  }
+]

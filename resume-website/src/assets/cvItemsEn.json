@@ -1,0 +1,24 @@
+[
+  {
+    "pic": 0,
+    "company": "Cofinpro AG",
+    "from": "01.08.2024",
+    "role": "Expert Consultant"
+  },
+  {
+    "pic": 1,
+    "company": "DER Touristik Online GmbH",
+    "from": "01.10.2021",
+    "to": "30.06.2024",
+    "role": "Software Engineer",
+    "description": "Dedicated to providing outstanding content to our customers and ensuring a seamless and enjoyable booking experience through dertour.de.<br/><br/>To accomplish this, I primarily work in the backend using Kotlin to process and collect data, while also connecting various IBEs to our website. In addition, I occasionally contribute to sections of our React frontend<br/><br/>In addition to the before mentioned, I also gain valuable insights into our DevOps tasks, such as creating Docker images, ensuring the stability of our services and configuring GitLab pipelines, to name just a few."
+  },
+  {
+    "pic": 2,
+    "company": "DER Touristik Deutschland GmbH",
+    "from": "01.10.2018",
+    "to": "30.09.2021",
+    "role": "Dual student business informatics Data Science",
+    "description": "Main focus:<br/><br/> Developing Backendsystems <br/> Dataprocessing and analysing <br/> Embedding machine learning <br/><br/> project thesis 1: test data management tool <br/> project thesis 2: automatic hotel picture classification<br/>bachelor thesis: geosearch during batchprocessing<br/><br/>During my studies i worked in the following depatures:<br/>DER Touristik Online, Functional Testing, DERTOUR Group Travel"
+  }
+]
