@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151a4019-00ba-4cab-b9ba-4f94cd9330dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resume-website/src/components/LanguageSelector.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume-website/src/i18n/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume-website/src/i18n/locales/de/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume-website/src/i18n/locales/en/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume-website/src/i18n/translation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/LanguageSelector.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/LanguageSelector.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/i18n/locales/de/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/i18n/locales/de/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/output.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume-website/src/views/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Start.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +79,7 @@
       <workItem from="1723797636572" duration="141000" />
       <workItem from="1725358398253" duration="3166000" />
       <workItem from="1725426961833" duration="12979000" />
-      <workItem from="1725599847566" duration="7573000" />
+      <workItem from="1725599847566" duration="8261000" />
     </task>
     <servers />
   </component>

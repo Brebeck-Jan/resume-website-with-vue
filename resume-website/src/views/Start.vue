@@ -7,7 +7,6 @@ import '../index.css'
 
 <template>
   <div>
-    <LanguageSwitcher></LanguageSwitcher>
     <p>{{ $t("home.header") }}</p>
     <p>{{$t("home.created_by", {company: "Lokalise"})}}</p>
     <p>{{ $t("home.num_visits", 10) }}</p>

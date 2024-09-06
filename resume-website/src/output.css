@@ -570,6 +570,10 @@ video {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -580,6 +584,10 @@ video {
 
 .m-auto {
   margin: auto;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .mb-0 {
@@ -647,6 +655,18 @@ video {
   height: 100%;
 }
 
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[84px\] {
+  height: 84px;
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -669,6 +689,10 @@ video {
 
 .w-\[450px\] {
   width: 450px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-grow {

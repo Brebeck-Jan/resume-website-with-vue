@@ -1,6 +1,5 @@
 <template>
-  <select @change="switchLanguage"
-          style="color: #131516"
+  <select @change="switchLanguage" class="bg-black"
   >
     <option
         v-for="sLocale in supportedLocales"
@@ -8,7 +7,7 @@
         :value="sLocale"
         :selected="sLocale === locale"
     >
-      {{ t(`locale.${sLocale}`) }}
+      {{ sLocale }}
     </option>
   </select>
 </template>

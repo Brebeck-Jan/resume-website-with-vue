@@ -1,8 +1,4 @@
 {
-  "locale": {
-    "en": "Englisch",
-    "de": "Deutsch"
-  },
   "home": {
     "header": "Wilkommen zu diesem Tutorial",
     "created_by": "Erstellt von {company}.",
