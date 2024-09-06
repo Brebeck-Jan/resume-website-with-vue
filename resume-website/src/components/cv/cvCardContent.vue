@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import {defineProps, ref} from "vue";
+import {defineProps, ref, watch} from "vue";
 import cofinpro from "../../assets/cofinpro.jpg"
 import dtd from "../../assets/dtd.jpg"
 import dto from "../../assets/dto.jpg"
+import {useI18n} from "vue-i18n";
 
 const props = defineProps(['item', 'index'])
+const {t} = useI18n();
 
 const images = [cofinpro, dto, dtd]
 const getTeaserText = () => {
@@ -18,15 +20,21 @@ const getTeaserText = () => {
 }
 
 let showMore = ref(false);
-let showValue = ref("mehr anzeigen")
+let showValue = ref(t("cv.expandButton"))
 let descriptionText = ref(getTeaserText())
+
+// Refresh teasers if language is changed
+watch(() => (props.item.description), (_) => {
+  descriptionText.value = getTeaserText()
+  showValue.value = t("cv.expandButton")
+  showMore.value = false
+})
 
 const handleShowInput = () => {
   showMore.value = !showMore.value;
-  showValue.value = showMore.value ? "weniger anzeigen" : "mehr anzeigen";
+  showValue.value = showMore.value ? t("cv.collapseButton") : t("cv.expandButton");
   descriptionText.value = showMore.value ? props.item.description : getTeaserText();
 }
-
 </script>
 
 <template>
@@ -40,11 +48,11 @@ const handleShowInput = () => {
         <li>{{ props.item.from }} - {{ props.item.to ? props.item.to : "heute" }}</li>
         <li>{{ props.item.role }}</li>
         <Transition :name="showMore.toString()">
-          <li v-show="props.item.description" class="item" :key="showValue.toString()">{{ descriptionText }}</li>
+          <li v-show="props.item.description" class="item" :key="showValue.toString()" v-html="descriptionText"></li>
         </Transition>
       </ol>
     </div>
-    <div class="mt-1 mb-0 flex align-middle justify-center h-[55px]" >
+    <div class="mt-1 mb-0 flex align-middle justify-center h-[55px]">
       <button class="showMoreButton" @click="handleShowInput" v-if="props.item.description">{{ showValue }}</button>
     </div>
   </div>

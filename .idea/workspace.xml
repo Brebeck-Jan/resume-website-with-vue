@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151a4019-00ba-4cab-b9ba-4f94cd9330dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resume-website/src/assets/cvItemsEn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume-website/src/assets/startItemsEn.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/components/LanguageSelector.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/LanguageSelector.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/assets/cvItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/assets/cvItemsDe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/assets/startItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/assets/startItemsDe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/components/cv/cvCardContent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume-website/src/i18n/locales/de/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/i18n/locales/de/de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume-website/src/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/output.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/i18n/locales/en/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/i18n/locales/en/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Cv.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume-website/src/views/Start.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resume-website/src/views/Start.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feat/add-internalisation",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/jan.brebeck/Library/CloudStorage/OneDrive-CofinproAG/Dokumente/Repos/private/resume-website-with-vue/resume-website/src/i18n/locales/de",
+    "last_opened_file_path": "/Users/jan.brebeck/Library/CloudStorage/OneDrive-CofinproAG/Dokumente/Repos/private/resume-website-with-vue/resume-website/src/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resume-website/src/assets" />
       <recent name="$PROJECT_DIR$/resume-website/src/i18n/locales/de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +86,7 @@
       <workItem from="1723797636572" duration="141000" />
       <workItem from="1725358398253" duration="3166000" />
       <workItem from="1725426961833" duration="12979000" />
-      <workItem from="1725599847566" duration="8261000" />
+      <workItem from="1725599847566" duration="12222000" />
     </task>
     <servers />
   </component>

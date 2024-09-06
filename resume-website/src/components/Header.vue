@@ -20,11 +20,11 @@ const isBigScreen = width.value > 700
     </div>
     <div class="flex-grow"></div>
     <div class="content-center align-center mr-5">
-      <RouterLink class="link" :to="Tr.i18nRoute({ name: 'home' })">Startseite</RouterLink>
-      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'cv' })">Lebenslauf</RouterLink>
-      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'projects' })">Projekte</RouterLink>
-      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'certificates' })">Zertifikate</RouterLink>
-      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'contact' })">Kontakt</RouterLink>
+      <RouterLink class="link" :to="Tr.i18nRoute({ name: 'home' })">{{ $t("navigation.start")  }}</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'cv' })">{{ $t("navigation.cv")  }}</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'projects' })">{{ $t("navigation.projects")  }}</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'certificates' })">{{ $t("navigation.certificates")  }}</RouterLink>
+      <RouterLink v-if="isBigScreen" class="link" :to="Tr.i18nRoute({ name: 'contact' })">{{ $t("navigation.contact")  }}</RouterLink>
     </div>
   </div>
 </template>

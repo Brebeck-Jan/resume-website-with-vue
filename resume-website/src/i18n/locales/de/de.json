@@ -1,7 +1,13 @@
 {
-  "home": {
-    "header": "Wilkommen zu diesem Tutorial",
-    "created_by": "Erstellt von {company}.",
-    "num_visits": "Noch keine Aufrufe | {n} Aufruf | {n} Aufrufe"
+  "navigation": {
+    "start": "Startseite",
+    "cv": "Lebenslauf",
+    "projects": "Projekte",
+    "certificates": "Zertifikate",
+    "contact": "Kontakt"
+  },
+  "cv": {
+    "expandButton": "mehr anzeigen",
+    "collapseButton": "weniger anzeigen"
   }
 }
